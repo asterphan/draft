@@ -1,0 +1,296 @@
+#signinModal .modal-content, #signupModal .modal-content,
+	#cus-change-pw-modal .modal-content {
+	border-radius: 0.5em;
+}
+
+#signinModal .modal-body, #signupModal .modal-body, #cus-change-pw-modal .modal-body
+	{
+	padding: 0;
+}
+
+#signinModal .modal-content form, #signupModal .modal-content form,
+	#cus-change-pw-modal .modal-content form {
+	margin: 1em 2em !important;
+}
+
+#signinModal input[type=submit], #signupModal input[type=submit] {
+	background-color: #ff6f31;
+	color: azure;
+	width: 100%;
+	border-color: transparent;
+	margin-top: 1em;
+	text-transform: uppercase;
+	/* background-color: #a9d5f4; */
+}
+
+#signinModal input[type=submit]:hover, #signupModal input[type=submit]:hover
+	{
+	color: azure;
+	background-color: #ff4e00;
+	/* background-color: #184682; */
+}
+
+#signinModal .modal-header, #signupModal .modal-header,
+	#cus-change-pw-modal .modal-header {
+	padding: 1em 2em 0 2em;
+	/* margin: 2em; */
+}
+
+#signinModal .modal-header img, #signupModal .modal-header img {
+	width: 2em;
+}
+
+#signinModal .modal-title, #signupModal .modal-title,
+	#cus-change-pw-modal .modal-title {
+	font-weight: bold;
+	color: #ff4e00;
+	/* margin: 2em; */
+}
+
+#signinModal .modal-header button, #signupModal .modal-header button,
+	#cus-change-pw-modal .modal-header button {
+	font-size: 2em;
+	color: #000;
+}
+
+#signinModal .modal-header button:hover, #signupModal .modal-header button:hover,
+	#cus-change-pw-modal .modal-header button:hover {
+	color: #ff4e00;
+}
+
+#signinModal .modal-footer, #signupModal .modal-footer,
+	#cus-change-pw-modal .modal-footer {
+	border: none;
+	display: block;
+}
+
+#signinModal .modal-footer div, #signupModal .modal-footer div {
+	width: 100%;
+	text-align: center;
+}
+
+#signinModal .admin-login-option {
+	text-decoration: underline;
+}
+
+#signinModal .modal-footer a, #signupModal .modal-footer a {
+	color: #ff6f31;
+}
+
+#signinModal .modal-footer a:hover, #signupModal .modal-footer a:hover {
+	color: #ff4e00;
+	font-weight: bold;
+}
+
+#signinModal .modal-body span.forgot-pw {
+	float: right;
+}
+
+#signinModal .modal-body span.forgot-pw a {
+	color: #000;
+}
+
+#signinModal .modal-body span.forgot-pw a:hover {
+	color: #ff4e00;
+}
+
+#signupModal .form-check-inline {
+	margin-right: 4em;
+}
+
+#signupModal .err-msg {
+	padding: 0;
+	font-size: .85em;
+}
+
+/* CSS for DROPDOWN CART */
+#estimate-total-price {
+	text-transform: uppercase;
+}
+
+#estimate-total-price span {
+	float: right;
+	color: #ff4e00;
+	font-size: 1.5em;
+	color: #ff4e00;
+}
+
+.cart .dropdown-menu {
+	width: 28em;
+}
+
+.cart .dropdown-menu .card-body {
+	padding: .7em;
+}
+
+.cart .dropdown-menu .card-body .row {
+	padding: .5em 0;
+	margin: 0;
+}
+
+.cart .dropdown-menu .card-body .row:first-child {
+	padding-top: 0;
+}
+
+.cart .dropdown-menu .card-body .row:last-child {
+	padding-bottom: 0;
+}
+
+.cart .dropdown-menu .card-body .row:not(:last-child) {
+	border-bottom: 1px solid lightgrey;
+}
+
+.cart .dropdown-menu .card-body .col-2 {
+	padding: 0;
+}
+
+.cart .dropdown-menu .card-body .col-2 img {
+	width: 100%;
+}
+
+.cart .dropdown-menu .card-body .col-6 {
+	padding: 0 0 0 .3em;
+}
+
+.cart .dropdown-menu .card-body .col-6 a {
+	color: #959596;
+}
+
+.cart .dropdown-menu .card-body .col-6 a:hover {
+	color: #000;
+}
+
+.cart .dropdown-menu .card-body .col-6 div {
+	color: #ff4e00;
+}
+
+.cart .dropdown-menu .card-body .col-6 div span {
+	color: grey;
+}
+
+.cart .dropdown-menu .card-body .col-1 {
+	padding-right: .5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cart .dropdown-menu .card-body .col-1 button {
+	float: right;
+	background: none;
+	border: none;
+	padding: 0;
+	margin-top: .3em;
+}
+
+.cart .dropdown-menu .card-body .col-1 button i {
+	font-size: .9em;
+	transition: transform 0.5s;
+}
+
+.cart .dropdown-menu .card-body .col-1 button:hover i {
+	color: red;
+	transform: scale(2);
+}
+
+.cart .dropdown-menu .card-footer .row {
+	margin-top: .2em;
+}
+
+.cart .dropdown-menu .card-footer a {
+	width: 100%;
+	text-transform: capitalize;
+}
+
+.cart .dropdown-menu .card-footer a.viewCart {
+	background: none;
+	color: #000;
+	border-color: #000;
+}
+
+.cart .dropdown-menu .card-footer a.viewCart:hover {
+	color: #ff4e00;
+	border-color: #ff4e00;
+}
+
+.cart .dropdown-menu .card-footer a.checkout:hover {
+	background: #ff4e00;
+	color: azure;
+	border-color: transparent;
+}
+
+.ddcart-qty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ddcart-qty input[type="number"] {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+
+.ddcart-qty input[type=number]::-webkit-inner-spin-button, .ddcart-qty input[type=number]::-webkit-outer-spin-button
+	{
+	-webkit-appearance: none;
+}
+
+.ddcart-qty .number-input {
+	display: inline-flex;
+}
+
+.ddcart-qty .number-input, .ddcart-qty .number-input * {
+	box-sizing: border-box;
+}
+
+.ddcart-qty .number-input button {
+	outline: none;
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: none;
+	align-items: center;
+	justify-content: center;
+	width: 2em;
+	height: 2em;
+	cursor: pointer;
+	margin: 0;
+	position: relative;
+}
+
+.ddcart-qty .number-input button:before, .ddcart-qty .number-input button:after
+	{
+	display: inline-block;
+	position: absolute;
+	content: '';
+	width: .5em;
+	height: 2px;
+	background-color: #808080;
+	transform: translate(-50%, -50%);
+}
+
+.ddcart-qty .number-input button {
+	transition: transform .5s;
+}
+
+.ddcart-qty .number-input button:hover {
+	transform: scale(1.5);
+}
+
+.ddcart-qty .number-input button.plus:after {
+	transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.ddcart-qty .number-input input[type=number] {
+	border: 1px solid #c6c6c6;
+	width: 2.5em;
+	height: 2em;
+	text-align: center;
+	border-radius: 5px;
+	color: #808080;
+}
+
+#ddcart-content-body {
+	max-height: 20em;
+	overflow-y: auto;
+}

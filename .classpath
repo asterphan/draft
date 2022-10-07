@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-15">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/mysql-connector-java-8.0.24.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/bcprov-jdk15on-1.68.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/commons-beanutils-1.9.4.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/ecj-3.21.0.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/itext-2.1.7.js9.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/jackson-annotations-2.13.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/jackson-core-2.13.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/jackson-databind-2.13.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/jackson-dataformat-xml-2.13.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/jasperreports-6.19.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/stax2-api-4.2.1.jar"/>
+	<classpathentry kind="lib" path="H:/Lib/New folder/jasperreports/woodstox-core-6.2.7.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

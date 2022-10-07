@@ -1,0 +1,479 @@
+@charset "ISO-8859-1";
+
+.account-warning {
+	margin: 3em;
+}
+
+.account-warning .message {
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.account-warning .message p {
+	margin-bottom: 1.5em;
+}
+
+.account-warning .btns {
+	margin-bottom: .5em;
+}
+
+.account-warning .btns button {
+	padding: .5em 2em;
+	text-transform: uppercase;
+	background-color: #ff6f31;
+	border-color: transparent;
+	margin-bottom: .5em;
+}
+
+.account-warning .btns button:hover {
+	background-color: #ff4e00;
+}
+
+.account-warning .btns a {
+	color: #ff6f31;
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+
+.account-warning .btns a:hover {
+	color: #ff4e00;
+}
+
+.account-warning .btns a i {
+	font-size: .8em;
+}
+
+.account-warning .message span a {
+	color: #ff6f31;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.account-warning .message span a:hover {
+	color: #ff4e00;
+	text-decoration: underline;
+}
+
+.customer-account .container-fluid {
+	padding: 1em 3em 2em 3em;
+}
+
+.customer-account h2 {
+	margin-bottom: .5em;
+}
+
+.customer-account .row.container-row {
+	margin-right: 0;
+}
+
+.customer-account .left-menu {
+	padding-right: 3em;
+	position: relative;
+}
+
+.customer-account .left-menu .nav-item a {
+	text-align: left;
+}
+
+.customer-account .left-menu .nav-item a span {
+	margin-right: .5em;
+}
+
+.customer-account .left-menu .nav-link {
+	color: #808080;
+	text-transform: capitalize;
+}
+
+.customer-account .left-menu .nav-link.active {
+	color: #ff4e00;
+	background: #ffdbcc;
+	font-weight: bold;
+}
+
+.customer-account .left-menu .nav-link:hover {
+	color: #ff4e00;
+}
+
+.customer-account .right-view {
+	/* box-shadow: 0 0 1em rgba(0, 0, 0, 0.2); */
+	border-radius: .25rem;
+	background: #f4f4f4;
+	padding: 1em 2em;
+}
+
+.customer-account .right-view .customer-info h3, .customer-account .right-view .customer-address h3,
+	.customer-account .right-view .customer-order h3 {
+	margin-bottom: 1em;
+	text-transform: capitalize;
+	color: #ff4e00;
+}
+
+.customer-account .right-view .customer-info h5, .customer-account .right-view .customer-address h5
+	{
+	width: 100%;
+	border-bottom: 1px solid #c0c0c0;
+	margin-bottom: 1em;
+	padding-bottom: .2em;
+	color: #ff6f31;
+	text-transform: capitalize;
+}
+
+span.required-symb {
+	color: red;
+}
+
+.customer-account .right-view .customer-info .sep-sec, .customer-account .right-view .customer-address .sep-sec
+	{
+	margin-bottom: 1.5em;
+}
+
+.customer-account .right-view .customer-info .sep-sec .col-sm-4.radiosbtn
+	{
+	padding: 7px 15px !important;
+}
+
+.customer-account .right-view .customer-info h5 a {
+	float: right;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	padding: 0;
+	color: #000;
+	font-size: .8em;
+}
+
+.customer-account .right-view .customer-info h5 a:hover {
+	color: #ff4e00;
+}
+
+.customer-account .right-view .customer-info form label,
+	.customer-account .right-view .customer-address form label,
+	.customer-account .right-view .customer-payment form label {
+	text-transform: capitalize;
+}
+
+.customer-account .right-view .customer-info form[name=info-form] button[type=submit],
+	.customer-account .right-view .customer-info form[name=cus-change-pw-form] button[type=submit],
+	.address-cards form[name=edit-addr-form] button[type=submit],
+	#editCheckoutAddr form button[type=submit] {
+	background-color: #353535;
+	border-color: transparent;
+	color: azure;
+	text-transform: uppercase;
+}
+
+.customer-account .right-view .customer-info form[name=info-form] button[type=submit]:hover,
+	.customer-account .right-view .customer-info form[name=cus-change-pw-form] button[type=submit]:hover,
+	.customer-account .right-view .customer-address h3 span .btn:hover,
+	form[name=addr-form] button:not(.btn-danger):hover, .address-cards form[name=edit-addr-form] button[type=submit]:hover,
+	#editCheckoutAddr form button[type=submit]:hover, form[name=card-form] button:not(.btn-danger):hover,
+	#orderDetails button.btn-dark:hover,
+	#invoice button.btn-dark:hover
+	{
+	background-color: #ff4e00;
+	color: azure;
+}
+
+.customer-account .right-view .customer-info form[name=info-form] button[type=submit],
+	.customer-account .right-view .customer-info form[name=cus-change-pw-form] button[type=submit],
+	.customer-account .right-view .customer-info form[name=cus-change-pw-form] button[type=reset],
+	.customer-account .right-view .customer-info form[name=info-form] button.revert-info-btn
+	{
+	width: 100%;
+}
+
+.customer-account .right-view .customer-info form[name=cus-change-pw-form] button[type=reset],
+	.customer-account .right-view .customer-info form[name=info-form] button.revert-info-btn,
+	.address-cards form[name=edit-addr-form] button[type=button]:not(.btn-danger),
+	#editCheckoutAddr form button[type=button]:not(.btn-danger) {
+	color: azure;
+	background-color: gray;
+	border-color: transparent;
+	text-transform: uppercase;
+}
+
+.customer-account .right-view .customer-info form[name=cus-change-pw-form] button[type=reset]:hover,
+	.customer-account .right-view .customer-info form[name=info-form] button.revert-info-btn:hover,
+	.address-cards form[name=edit-addr-form] button[type=button]:not(.btn-danger):hover,
+	#editCheckoutAddr form button[type=button]:not(.btn-danger):hover {
+	background-color: #c0c0c0;
+}
+
+.customer-account .right-view .customer-info a#change-pw-btn {
+	padding-left: 12px;
+}
+
+.err-msg {
+	padding: 7px;
+}
+
+form[name=info-form] .form-group, form[name=addr-form] .form-group {
+	margin-bottom: 0;
+}
+
+form[name=info-form] .err-msg, form[name=addr-form] .err-msg {
+	padding: 0;
+	margin-bottom: 1em;
+}
+
+.customer-account .right-view .customer-address h3 span {
+	float: right;
+}
+
+.customer-account .right-view .customer-address h3 span .btn, form[name=addr-form] button:not(.btn-danger),
+	form[name=card-form] button:not(.btn-danger) {
+	background-color: #353535;
+	border-color: transparent;
+	color: azure;
+	text-transform: capitalize;
+}
+
+form[name=addr-form] button {
+	margin: auto;
+}
+
+.address-cards .card {
+	border-radius: 7px;
+	margin-bottom: .5em;
+}
+
+.address-cards .card .card-title {
+	border: none !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.cd-head {
+	display: flex;
+	margin-bottom: 1.3em;
+}
+
+.cd-head button, .cd-head button:hover {
+	background: none;
+	border: none;
+	color: #808080;
+	padding: 0;
+}
+
+.cd-head button:hover {
+	color: #000;
+}
+
+.cd-head .dropdown-menu a {
+	text-transform: capitalize;
+}
+
+.address-cards .card h6 {
+	font-weight: bold;
+}
+
+.address-cards .card table th {
+	padding-right: .8em;
+	vertical-align: top;
+}
+
+.address-cards nav {
+	margin-top: 1em;
+}
+
+.address-cards .default-symb {
+	float: right;
+	color: #0080ff;
+}
+
+.address-cards .collapse {
+	margin-top: 1em;
+}
+
+.address-cards .collapse h6, #editCheckoutAddr h6 {
+	color: #afafaf;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.customer-account .right-view .customer-payment h3 span {
+	float: right;
+}
+
+.customer-account .right-view .customer-payment .credit-cards .no-card a
+	{
+	color: #ff4e00;
+	text-transform: uppercase;
+}
+
+.customer-account .right-view .customer-payment .credit-cards .no-card a:hover
+	{
+	font-weight: bold;
+}
+
+.customer-account .right-view .customer-order .display-orders table {
+	background: #fff;
+	border-bottom: none;
+}
+
+.customer-account .right-view .customer-order .display-orders table th {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.customer-account .right-view .customer-order .display-orders table td {
+	text-align: center;
+}
+
+.customer-account .right-view .customer-order .display-orders table td .badge
+	{
+	font-size: 85%;
+}
+
+.customer-account .right-view .customer-order .display-orders table td button
+	{
+	background: transparent;
+	transition: transform .5s;
+}
+
+.customer-account .right-view .customer-order .display-orders table td button.btn-det:hover
+	{
+	color: #ff4e00;
+	transform: scale(1.5);
+}
+
+.customer-account .right-view .customer-order .display-orders table td button.btn-del:not(:disabled):hover {
+	color: red;
+	transform: scale(1.5);
+}
+
+.dataTables_wrapper .dataTables_filter {
+	margin-bottom: .5em;
+}
+
+.dataTables_wrapper .dataTables_paginate, .dataTables_wrapper .dataTables_info
+	{
+	margin-top: .5em;
+}
+
+.customer-account .right-view .customer-order h3 {
+	margin-bottom: .5em;
+}
+
+.customer-account .right-view .customer-order .modal-content,
+#invoice .modal-content {
+	border-radius: 10px;
+}
+
+.customer-account .right-view .customer-order .modal .modal-title {
+	text-transform: capitalize;
+	color: #ff4e00;
+	margin-left: .5em;
+}
+
+.customer-account .right-view .customer-order .modal .modal-header .close,
+#invoice .modal-header .close {
+	font-size: 2em;
+	transition: transform .5s;
+}
+
+.customer-account .right-view .customer-order .modal .modal-header .close:hover,
+#invoice .modal-header .close:hover {
+	transform: scale(1.5);
+	color: #ff4e00;
+}
+
+.customer-account .right-view .customer-order .modal .modal-body {
+	padding: .5em 1em;
+}
+
+.customer-account .right-view .customer-order .modal .nav-pills .nav-link.active
+	{
+	background: none;
+	color: #ff4e00;
+	border-bottom: 2px solid #ff4e00;
+	font-weight: bold;
+}
+
+.customer-account .right-view .customer-order .modal .nav-pills .nav-link
+	{
+	text-transform: capitalize;
+	border-radius: 0;
+	color: #828284;
+	border-bottom: 3px solid transparent;
+}
+
+.customer-account .right-view .customer-order .modal .nav-pills .nav-link:not(.active):hover
+	{
+	color: #000;
+}
+
+.customer-account .right-view .customer-order .modal .modal-body .tab-content {
+	max-height: 25em;
+	overflow-y: scroll;
+	margin-top: 1em;
+}
+
+.customer-account .right-view .customer-order .modal img {
+	max-width: 6em;
+	margin-right: .7em;
+}
+
+#order-items div:first-child {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#order-items div:first-child p:last-child {
+	color: #000;
+	font-size: normal;
+}
+
+#order-items div:first-child p:last-child .subtotal {
+	color: #ff4e00;
+	font-size: 1.5em;
+}
+
+#order-items .orders-body .row:first-child {
+	margin-top: 1em;
+}
+
+#order-items .orders-body .row {
+	padding: .5em 0;
+	width: 100%;
+	margin: 0;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+}
+
+#order-items .orders-body .row:hover {
+	background: #efefef;
+}
+
+#order-items .orders-body .col-6 span{
+	color: #ff4e00;
+}
+
+#order-items .orders-body .col-2:last-child {
+	text-align: right;
+	color: #ff4e00;
+}
+
+#shipping-info h6 {
+	text-transform: capitalize;
+}
+
+#shipping-info table th,
+#shipping-info table td,
+#shipping-info table th,
+#shipping-info table td {
+	padding: 0;
+}
+
+#shipping-info table th,
+#shipping-info table th {
+	color: #b3b3b3;
+	text-transform: uppercase;
+	padding-top: .5em;
+	font-weight: normal;
+}
+
+#orderDetails button.btn-dark, #invoice button.btn-dark {
+	border-color: transparent;
+}
